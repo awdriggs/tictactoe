@@ -1,0 +1,100 @@
+html {
+ font-family: 'Playfair Display SC';
+ font-style: italic;
+}
+body {
+  margin: 0;
+  text-align: center;
+}
+
+
+#board{
+  margin:0 auto 20px auto;
+  width:900px; 
+}
+
+.cell{
+  display: inline-block;
+  line-height: 1em;
+  height:200px;
+  width:200px;
+  margin:5px;
+  font-size:10em;
+  color: #CC3F0C;
+  border-radius: 25px;
+  border: 5px solid #A6A2A2;
+}
+
+
+.clicked{
+  border: 5px solid #CC3F0C;
+}
+
+#wrapper {
+  width: 700px;
+  margin: 0 auto; 
+}
+
+p {
+  padding: 10px;
+}
+
+header {
+  height: 120px;
+}
+
+#title h3{
+  font-size: 4em;
+  margin-top: 5px;
+  padding: 0;
+ 
+}
+
+.sblocks {
+  display: inline-block;
+  width: 45%;
+  margin: 0px 7px;
+  color: #CC3F0C;
+  text-align: left;
+  /*border-radius: 25px;
+  border: 5px solid #CC3F0C;*/
+  line-height: 0.2;
+}
+
+.sblocks h3 {
+  font-size: 2em;
+  margin:0;
+}
+.winningCell {
+  color: #D17A22;
+  border-radius: 25px;
+  border: 5px solid #D17A22;
+}
+
+.hBlocks {
+  display: inline-flex;
+  
+  height:100px;
+  width:200px;
+  margin:5px 7px;
+color: #CC3F0C;
+  /*border-radius: 25px;
+  border: 5px solid #CC3F0C;*/
+}
+
+.hBlocks h3{
+  color: #CC3F0C;
+  font-size: 3em;
+  text-align: center;
+  line-height: 1;
+  margin: 0;
+
+  margin-top: 60px;
+}
+
+#scoreboard {
+  margin-top: -20px;
+}
+
+
+
